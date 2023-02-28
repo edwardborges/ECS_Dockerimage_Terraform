@@ -16,6 +16,6 @@ provider "docker" {}
 
 provider "aws" {
   region        = var.region
-  access_key    = var.access_key
-  secret_key    = var.secret_access_key
+  # usaremos export AWS_ACCESS_KEY_ID via terminal
+  # usaremos export AWS_SECRET_ACCESS_KEY via terminal
 }
